@@ -3132,3 +3132,20 @@ Index: []
 0           1  Alice Johnson            I10          99213         250.0                   175.0       False
 1           2      Bob Smith          E11.9          99214         300.0                   240.0       False
 2           3    Carol Davis          J20.9          99203         350.0                   280.0       False
+2025-05-27 17:12:19,171 - INFO - .env file loaded.
+2025-05-27 17:12:19,171 - INFO - Configuration: TOTAL_RECORDS=500, BATCH_SIZE=200, MAX_CONCURRENT_REQUESTS=2, OUTLIER_PERCENTAGE=0%
+2025-05-27 17:12:19,172 - INFO - Gemini API configured.
+2025-05-27 17:12:19,173 - INFO - Starting synthetic data generation.
+2025-05-27 17:12:19,174 - INFO - Need 500 normal records and 0 outliers.
+2025-05-27 17:12:19,180 - INFO - Processing batch of size: 200
+2025-05-27 17:12:19,200 - INFO - Processing batch of size: 200
+2025-05-27 17:12:19,202 - INFO - Processing batch of size: 200
+2025-05-27 17:13:34,123 - INFO - Generating -100 outlier records.
+2025-05-27 17:13:34,123 - INFO - Total records collected (normal + outliers): 600
+2025-05-27 17:13:34,163 - INFO - Dataset saved to medical_billing_records.csv
+2025-05-27 17:13:34,163 - INFO - Sample records:
+2025-05-27 17:13:34,177 - INFO - 
+   patient_id   patient_name diagnosis_code procedure_code  total_charge  insurance_claim_amount  is_outlier
+0           1  Alice Johnson            I10          99213         450.0                   315.0       False
+1           2   Bob Williams          E11.9          99214         600.0                   480.0       False
+2           3    Carol Brown          J20.9          99203         200.0                   140.0       False

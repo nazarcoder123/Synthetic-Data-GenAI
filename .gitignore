@@ -6,3 +6,5 @@ __pycache__/
 
 # Logs
 *.synthetic_data_generation.log
+/synthetic_data_generation.log
+synthetic_data_generation.log/
